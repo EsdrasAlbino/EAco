@@ -1,5 +1,10 @@
-@import url(fontawesome-all.min.css);n
+@import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+
+@import url(//db.onlinewebfonts.com/c/cbdae6936e22028ef98d81b3efe681bb?family=Inlanders);
+@import url('http://fonts.cdnfonts.com/css/square-font');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 
 /*
 	Stellar by HTML5 UP
@@ -318,7 +323,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000;
 	}
 
 	blockquote {
@@ -1619,7 +1624,7 @@ input, select, textarea {
 				}
 
 				.row > .col-3-xsmall {
-					width: 25%;c
+					width: 25%;
 				}
 
 				.row > .off-3-xsmall {
@@ -2240,7 +2245,7 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
-			color: #fff;
+			color: #1441c7;
 		}
 
 		.icon > .label {
@@ -2955,7 +2960,7 @@ input, select, textarea {
 		}
 		.conta .card .face.face1{
 			position: relative;
-			background: #011C26;
+			background: #000; /*011C26*/
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -3091,14 +3096,13 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			/*border-radius: 100%;*/
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
-				width: 16em;
+				width: 22em;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3138,7 +3142,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					margin-left: 0;
-					margin-bottom: 2em;
+					/*margin-bottom: 2em;*/
 				}
 
 		}
@@ -3150,7 +3154,7 @@ input, select, textarea {
 			}
 
 				.spotlight .image img {
-					width: 12em;
+					width: 15em;
 				}
 
 		}
@@ -3162,7 +3166,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 4em 5em 1em 5em ;
 		text-align: center;
 	}
 
@@ -3176,7 +3180,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 4em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3205,7 +3209,7 @@ input, select, textarea {
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0 0 0.25em 0;
 			}
 
 				#header.alt .logo img {
@@ -3442,7 +3446,7 @@ input, select, textarea {
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-			color: #fff;
+			color: #000;
 		}
 
 		#main blockquote {
@@ -3527,7 +3531,7 @@ input, select, textarea {
 				#main input[type="button"].primary.icon:before,
 				#main button.primary.icon:before,
 				#main .button.primary.icon:before {
-					color: #ffffff !important;
+					color: #1441c7 !important;
 				}
 
 		#main label {
@@ -3667,7 +3671,7 @@ input, select, textarea {
 		}
 
 		#main .spotlight .image {
-			border-color: #111111;
+			/*border-color: #111111;*/
 		}
 
 		#main > .main {
